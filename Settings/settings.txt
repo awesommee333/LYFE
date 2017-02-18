@@ -5,13 +5,3 @@ Walls: 1
 Image Loading(need image if 1(file or url), boardsize if 0. To write boardsize, just write the x size and y size): 1, file, Settings\circle.png
 Color: 1
 Colors(put null for default. Otherwise format as tolerance. Write rgb values separated by commas and colors separated by semicolons): null
-
-Notes: 
-Left click to kill or make living a cell or to delete a wall; 
-Right click to place a wall(note, right clicking again does not delete by design);
-Arrow keys to shift the board up, down, left, or right by ONE tile
-+/- to zoom in/out. The problem with it right now is that if you have an odd number of cells, then it seems to not center properly
-Enter to do one generation
-'a' to make it automatically go through generations as fast as possible
-'h' to screenshot. Images saved in the Images folder.
-Also walls are simply places that cannot be inhabited.
